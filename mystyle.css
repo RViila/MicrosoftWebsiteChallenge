@@ -1,0 +1,259 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+
+.Navbar {
+  padding-left: 10%;
+  padding-top: 0.75%;
+  font-size: 80%;
+}
+
+a.nav-link {
+  color: black !important;
+}
+
+.MicrosoftLogo {
+  position: relative;
+  bottom: 22.5%;
+  right: 3%;
+}
+
+.nav {
+  position: relative;
+  right: 90%;
+  bottom: 5%;
+}
+
+.carousel{
+  position: relative;
+  left: 5%;
+}
+
+.slideshow{
+
+  left: 50%;
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+
+}
+
+.flexbox-container .item6{
+  position: relative;
+  margin: auto;
+  left: %;
+}
+
+.mySlides{
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.buttonleft{
+  border: none;
+  background: none;
+}
+
+.buttonright{
+  border: none;
+  background: none;
+}
+
+.buttons{
+  /* text-align: center; */
+  padding-left: 48.75%
+
+}
+
+
+.content1{
+  position: relative;
+  padding-top: 4%;
+  left: 32%;
+}
+
+
+
+.content2{
+  position: relative;
+  padding-top: 3%;
+  left: 20%;
+}
+
+/* .Content2IMG{
+  position: relative;
+  padding-bottom: 5%;
+  right: 20%;
+}
+
+.Content2IMG1{
+  position: relative;
+  right: 75%;
+}
+
+.Content2IMG2{
+  position: relative;
+  right: 47.5%;
+}
+
+.Content2IMG3{
+  position: relative;
+  right: 20%;
+}
+
+.Content2IMG4{
+  position: relative;
+  left: 7%;
+} */
+
+.content21{
+  position: relative;
+  padding-top: 14%;
+  right: 75%;
+
+}
+
+.content22{
+  position: relative;
+  padding-top: 14%;
+  right: 47.5%;
+
+}
+
+.content23{
+  position: relative;
+  padding-top: 14%;
+  right: 20%;
+
+}
+
+.content24{
+  position: relative;
+  padding-top: 14%;
+  left: 7%;
+
+}
+
+.BigIMG1{
+
+  padding-left: 9.25%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+
+}
+
+
+.flexbox-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 4%;
+
+
+
+}
+
+.flexbox-container .item {
+  width: 21.5%;
+  padding-left: 2%;
+  padding-right: : 2%;
+  /* padding-top: 1%; */
+
+}
+
+.FlexboxImg{
+  padding-bottom: 10%;
+}
+
+
+
+.BigIMG2{
+  padding-right: 7.5%;
+}
+
+.flexbox-container .item2 {
+  width: 14%;
+  padding-left: 1%;
+  color: #666666;
+  padding-top: 3%;
+}
+
+footer{
+  background-color: #f4f4f4;
+}
+
+.Button1{
+  color: #106ebe;
+  padding-top: 2.5%;
+}
+
+.hoverblue:hover {
+  text-decoration: underline;
+}
+
+.flexbox-container .item3 {
+  width: 9%;
+  text-align: center;
+  /* padding-top: 4%; */
+}
+
+.contentext1{
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.flexbox-container .item4 {
+  width: 21.5%;
+  padding-left: 2%;
+  padding-right: : 2%;
+  padding-top: 1%;
+}
+
+.flexbox-container .item5 {
+  width: 100%;
+
+
+}
+
+.hoverblack:hover {
+  text-decoration: underline;
+}
+
+@media(max-width: 760px) {
+  .flexbox-container .item {
+    width: 100%;
+  }
+}
+
+@media(max-width: 760px) {
+  .flexbox-container .item3 {
+    width: 100%;
+  }
+}
+
+@media(max-width: 760px) {
+  .flexbox-container .item2 {
+    width: 100%;
+  }
+}
+
+@media(max-width: 760px) {
+  .flexbox-container .item4 {
+    width: 100%;
+  }
+}
+
+@media(max-width: 760px) {
+  .flexbox-container .item5 {
+    width: 100%;
+  }
+}
